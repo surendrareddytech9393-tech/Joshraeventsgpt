@@ -68,17 +68,17 @@ background:#fff;
 color:#000;
 }
 .hero{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
-background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("heroo.jpg");
-background-size:cover;
-background-position:center;
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:left;
+    padding:0 8%;
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("hero.jpg");
+    background-size:cover;
+    background-position:center;
 }
-
 .hero-content h1{
 font-size:48px;
 margin-bottom:20px;
