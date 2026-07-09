@@ -139,3 +139,78 @@ color:#000;
     background:#fff;
     color:#000;
 }
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 8% 60px;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("hero.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-left{
+    max-width:600px;
+}
+
+.small-text{
+    color:#D4AF37;
+    letter-spacing:3px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.hero-left h1{
+    font-size:70px;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-weight:800;
+}
+
+.hero-left h1 span{
+    color:#D4AF37;
+}
+
+.hero-description{
+    font-size:18px;
+    color:#ddd;
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.explore-btn,
+.showreel-btn{
+    text-decoration:none;
+    padding:15px 32px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.explore-btn{
+    background:#D4AF37;
+    color:#000;
+}
+
+.showreel-btn{
+    border:1px solid #fff;
+    color:#fff;
+}
+
+.explore-btn:hover{
+    transform:translateY(-3px);
+}
+
+.showreel-btn:hover{
+    background:#fff;
+    color:#000;
+}
