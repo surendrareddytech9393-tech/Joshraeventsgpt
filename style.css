@@ -580,3 +580,55 @@ font-size:22px;
 color:#cfcfcf;
 line-height:1.8;
 }
+.featured-event{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:50px;
+padding:100px 8%;
+background:#080808;
+flex-wrap:wrap;
+}
+
+.featured-content{
+flex:1;
+min-width:300px;
+}
+
+.featured-content h2{
+font-size:48px;
+margin:20px 0;
+}
+
+.featured-text{
+color:#cfcfcf;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.event-details{
+display:flex;
+gap:40px;
+margin-bottom:30px;
+flex-wrap:wrap;
+}
+
+.event-details strong{
+color:#C8A96A;
+}
+
+.featured-image{
+flex:1;
+min-width:300px;
+}
+
+.featured-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+transition:.4s;
+}
+
+.featured-image img:hover{
+transform:scale(1.03);
+}
