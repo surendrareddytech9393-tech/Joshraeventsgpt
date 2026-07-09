@@ -391,3 +391,50 @@ margin-bottom:15px;
 color:#bbb;
 line-height:1.8;
 }
+@media (max-width:768px){
+
+.menu{
+display:none;
+}
+
+.hero{
+padding:120px 25px 80px;
+}
+
+.hero-left h1{
+font-size:52px;
+}
+
+.stats{
+grid-template-columns:1fr 1fr;
+gap:10px;
+padding:20px;
+}
+
+.about{
+flex-direction:column;
+}
+
+.service-grid{
+grid-template-columns:1fr;
+}
+
+.about-content h2{
+font-size:38px;
+}
+
+.section-title h2{
+font-size:38px;
+}
+
+.floating-buttons{
+right:10px;
+}
+
+.call-btn,
+.whatsapp-btn{
+padding:12px 15px;
+font-size:14px;
+}
+
+}
