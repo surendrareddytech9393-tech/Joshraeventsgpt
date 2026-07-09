@@ -1,11 +1,15 @@
 const slides = document.querySelectorAll(".slide");
 
-let current = 0;
+console.log("Slides found:", slides.length);
 
-setInterval(() => {
-    slides[current].classList.remove("active");
+if (slides.length > 0) {
+    let current = 0;
 
-    current = (current + 1) % slides.length;
+    setInterval(() => {
+        slides[current].classList.remove("active");
 
-    slides[current].classList.add("active");
-}, 4000);
+        current = (current + 1) % slides.length;
+
+        slides[current].classList.add("active");
+    }, 4000);
+}
