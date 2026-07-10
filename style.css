@@ -34,7 +34,7 @@ height:55px;
 }
 
 .menu{
-display:flex;
+display:flex; 
 list-style:none;
 gap:35px;
 }
